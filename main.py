@@ -8,7 +8,7 @@ MORSE_ALPHABET = {
 
 
 def get_text():
-    text_data = input('Enter text to convert:\n')
+    text_data: str = input('Enter text to convert:\n').lower()
     return text_data
 
 
